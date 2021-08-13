@@ -172,7 +172,7 @@ export default function ProfilePage(props) {
                           </div>
                           <hr />
                           <div className={classes.description}>
-                            <h3>September 2020 - Present</h3>
+                            <h3>September 2020 - 12 April 2021</h3>
                             <h3>Web Programmer</h3>
                             <h4>PT Deptech Digital Indonesia</h4>
                             <p>
