@@ -115,7 +115,7 @@ export default function ProfilePage(props) {
                               />
                               <h4 className={classes.expertiseTitle}>Web Development</h4>
                               <p className={classes.expertiseDesc}>
-                                I am Experienced with HTML, JavaScript, CSS, PHP, Python Flask, and React
+                                I am Experienced with HTML, JavaScript, CSS, PHP, MySQL, PostgreSQL, and Python
                               </p>
                             </div>
                           </GridItem>
@@ -163,16 +163,7 @@ export default function ProfilePage(props) {
                           </div>
                           <hr />
                           <div className={classes.description}>
-                            <h3>August 2019 - January 2020</h3>
-                            <h3>Web Programmer</h3>
-                            <h4>PT Deptech Digital Indonesia</h4>
-                            <p>
-                              Working as a Web Programmer. Went hiatus for school.{" "}
-                            </p>
-                          </div>
-                          <hr />
-                          <div className={classes.description}>
-                            <h3>September 2020 - April 2021</h3>
+                            <h3>August 2019 - April 2021</h3>
                             <h3>Web Programmer</h3>
                             <h4>PT Deptech Digital Indonesia</h4>
                             <p>
