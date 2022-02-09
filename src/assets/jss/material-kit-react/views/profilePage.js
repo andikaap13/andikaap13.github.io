@@ -17,7 +17,8 @@ const profilePageStyle = {
     margin: "1.071rem auto 0",
     maxWidth: "600px",
     color: "#333",
-    textAlign: "center !important"
+    textAlign: "center !important",
+    padding: "15px 20px" 
   },
   name: {
     marginTop: "-80px"
@@ -64,7 +65,8 @@ const profilePageStyle = {
     boxShadow: "1px 4px 4px rgba(0,0,0,0.2)",
     overflow: "hidden",
     clear: "both",
-    padding: "10px 0"
+    padding: "10px 0",
+    borderRadius: "6px"
   },
   expertiseImg: {
     width: "calc(100% - 100px)",

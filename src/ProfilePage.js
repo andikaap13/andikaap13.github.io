@@ -16,6 +16,7 @@ import Footer from "./components/Footer/Footer.js";
 import GridContainer from "./components/Grid/GridContainer.js";
 import GridItem from "./components/Grid/GridItem.js";
 // import HeaderLinks from "./components/Header/HeaderLinks.js";
+import Card from "./components/Card/Card.js";
 import NavPills from "./components/NavPills/NavPills.js";
 import Parallax from "./components/Parallax/Parallax.js";
 
@@ -74,8 +75,8 @@ export default function ProfilePage(props) {
                   </div>
                   <div className={classes.name}>
                     <h2 className={classes.title}>Andika Ageng Prastawa</h2>
-                    <p className={classes.email}>andikaap13@gmail.com</p>
-                    <h4>Web Programmer</h4>
+                    <p className={classes.email}>andikaagengprastawa@gmail.com</p>
+                    <h4>IT Programmer</h4>
                     {/* <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
                     </Button>
@@ -91,7 +92,7 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                I am a passionate programmer experienced in Codeigniter, Laravel, Flask and React. <br />
+                I am a passionate programmer experienced in Codeigniter, Laravel, Express, Flutter and React. <br />
                 I love exploring things and coming up with new ideas!
               </p>
             </div>
@@ -113,9 +114,9 @@ export default function ProfilePage(props) {
                                 src={code}
                                 className={classes.expertiseImg}
                               />
-                              <h4 className={classes.expertiseTitle}>Web Development</h4>
+                              <h4 className={classes.expertiseTitle}>App Development</h4>
                               <p className={classes.expertiseDesc}>
-                                I am Experienced with HTML, JavaScript, CSS, PHP, MySQL, PostgreSQL, and Python
+                                I am Experienced with HTML, JavaScript, CSS, PHP, NodeJS, Flutter, MySQL, PostgreSQL, and Python
                               </p>
                             </div>
                           </GridItem>
@@ -128,7 +129,7 @@ export default function ProfilePage(props) {
                               />
                               <h4 className={classes.expertiseTitle}>Design</h4>
                               <p className={classes.expertiseDesc}>
-                                I have experience with designing by using Adobe Photoshop and Adobe Illustrator
+                                I have experience of using design tools like Adobe Photoshop and Adobe Illustrator
                               </p>
                             </div>
                           </GridItem>
@@ -141,7 +142,7 @@ export default function ProfilePage(props) {
                               />
                               <h4 className={classes.expertiseTitle}>Data Structures and Algorithms</h4>
                               <p className={classes.expertiseDesc}>
-                                I have basic knowledge of Data Structures and Algorithms
+                                Experienced with Data Structures and Algorithms
                               </p>
                             </div>
                           </GridItem>
@@ -153,23 +154,23 @@ export default function ProfilePage(props) {
                       tabIcon: Work,
                       tabContent: (
                         <div className={classes.container}>
-                          <div className={classes.description}>
+                          <Card className={classes.description}>
+                            <h3>August 2019 - April 2021</h3>
+                            <h3>Web Developer</h3>
+                            <h4>PT Deptech Digital Indonesia</h4>
+                            <p>
+                              Working as a Web Developer.{" "}
+                            </p>
+                          </Card>
+                          <Card className={classes.description}>
                             <h3>March 2018 - April 2018</h3>
                             <h3>IT Support</h3>
                             <h4>PT Bintang Advis Entertainment</h4>
                             <p>
                               Working as a Windows and PC Troubleshooter.{" "}
                             </p>
-                          </div>
-                          <hr />
-                          <div className={classes.description}>
-                            <h3>August 2019 - April 2021</h3>
-                            <h3>Web Programmer</h3>
-                            <h4>PT Deptech Digital Indonesia</h4>
-                            <p>
-                              Working as a Web Programmer.{" "}
-                            </p>
-                          </div>
+                          </Card>
+                          <br />
                         </div>
                       )
                     },
@@ -178,13 +179,13 @@ export default function ProfilePage(props) {
                       tabIcon: Queue,
                       tabContent: (
                         <div className={classes.container}>
-                          <div className={classes.description}>
+                          <Card className={classes.description}>
                             <h3>November 2018</h3>
                             <h3>1st on FIKSI Contest</h3>
                             <p>
-                              Our team won first place at the programming contest where we presented a calculation app.{" "}
+                              Our team won first place at the programming contest, where we presented a calculation app on the contest.{" "}
                             </p>
-                          </div>
+                          </Card>
                         </div>
                       )
                     },
