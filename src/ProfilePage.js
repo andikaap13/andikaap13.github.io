@@ -20,7 +20,7 @@ import Card from "./components/Card/Card.js";
 import NavPills from "./components/NavPills/NavPills.js";
 import Parallax from "./components/Parallax/Parallax.js";
 
-import profile from "./assets/img/profile-pic.jpg";
+import profile from "./assets/img/initial-a.jpg";
 
 import code from "./assets/img/expertise/code.png";
 import palette from "./assets/img/expertise/palette.png";
